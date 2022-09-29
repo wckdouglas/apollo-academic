@@ -1,6 +1,6 @@
 # apollo-academic
 
-Modern and minimalistic blog theme powered by [Zola](getzola.org). See a live preview [here](https://not-matthias.github.io/apollo).
+Modern and minimalistic blog theme powered by [Zola](getzola.org). See a live preview [here](https://wckdouglas.netlify.app/).
 
 <sub><sup>Named after the greek god of knowledge, wisdom and intellect</sup></sub>
 
