@@ -1,4 +1,4 @@
-# apollo
+# apollo-academic
 
 Modern and minimalistic blog theme powered by [Zola](getzola.org). See a live preview [here](https://not-matthias.github.io/apollo).
 
@@ -29,14 +29,15 @@ Modern and minimalistic blog theme powered by [Zola](getzola.org). See a live pr
 
 1. Download the theme
 ```
-git submodule add https://github.com/not-matthias/apollo themes/apollo
+git submodule add https://github.com/wckdouglas/apollo-academic themes/apollo-academic
 ```
 
-2. Add `theme = "apollo"` to your `config.toml`
+2. Add `theme = "apollo-academic"` to your `config.toml`
 3. Copy the example content
 
 ```
 cp themes/apollo/content content
+cp themes/apollo/data data
 ```
 
 ## Options
@@ -57,4 +58,4 @@ These filenames are relative to the root of the site. In this example, the two C
 
 ## References
 
-This theme is based on [archie-zola](https://github.com/XXXMrG/archie-zola/).  
+This theme is based on [apollo](https://github.com/not-matthias/apollo).  
