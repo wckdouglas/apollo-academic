@@ -1,0 +1,9 @@
+- authors: some authors
+  year: "preprint"
+  title: "title"
+  vol: 1
+  ref: journal name
+  link: https://some/journal.html
+  doi: doi_number
+  sra: https://www.ncbi.nlm.nih.gov/bioproject/sra
+  scripts: https://github.com/some/repo

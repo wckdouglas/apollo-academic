@@ -1,63 +1,64 @@
 .primary-color {
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 .draft-label {
-  color: var(--hover-color);
-  text-decoration: none;
-  padding: 2px 4px;
-  border-radius: 4px;
-  margin-left: 6px;
-  background-color: var(--primary-color);
+    color: var(--hover-color);
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 6px;
+    background-color: var(--primary-color);
 }
 
 ::-moz-selection {
-  background: var(--primary-color);
-  color: var(--hover-color);
-  text-shadow: none;
+    background: var(--primary-color);
+    color: var(--hover-color);
+    text-shadow: none;
 }
 
 ::selection {
-  background: var(--primary-color);
-  color: var(--hover-color);
+    background: var(#000000);
+    color: var(#000000);
 }
 
 p {
-  line-height: 1.5;
+    line-height: 1.5;
 }
 
 hr {
-  border: 0;
-  border-top: 3px solid var(--border-color);
-  margin: 1em 0;
+    border: 0;
+    border-top: 3px solid var(--border-color);
+    margin: 1em 0;
 }
 
 blockquote {
-  border-left: 3px solid var(--border-color);
-  color: #737373;
-  margin: 0;
-  padding-left: 1em;
+    border-left: 3px solid var(--border-color);
+    color: #737373;
+    margin: 0;
+    padding-left: 1em;
 }
 
 a {
-  border-bottom: 3px solid var(--primary-color);
-  color: inherit;
-  text-decoration: none;
+    border-bottom: 3px solid var(--primary-color);
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
-  background-color: var(--primary-color);
-  color: var(--hover-color);
+    background-color: var(--primary-color);
+    color: var(--hover-color);
 }
 
 time {
-  color: grey;
+    color: grey;
 }
 
 /* Remove post list padding */
 @media screen and (max-width: 600px) {
-  .list>ul {
-    margin: 0;
-    padding: 0;
-  }
+    .list>ul {
+        margin: 0;
+        padding: 0;
+    }
 }

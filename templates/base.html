@@ -4,6 +4,7 @@
 <html>
 {% include "partials/header.html" %}
 
+<!-- adding mathjax -->
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -16,6 +17,12 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
     type="text/javascript"></script>
 
+<!-- end mathjax script -->
+
+<!--  altmetric script: https://api.altmetric.com/embeds.html -->
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<!-- end altmetric script -->
+
 
 <body>
     <div class="content">
@@ -23,7 +30,9 @@
 
         {# Post page is the default #}
         {% block main_content %}
-        Nothing here?!
+        <a style="display:inline" align="center" href="/about">
+            <img src={{ config.extra.welcome_image }} width="100%" height="50%" />
+        </a>
         {% endblock main_content %}
     </div>
 </body>
