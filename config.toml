@@ -26,6 +26,10 @@ socials = [
     { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
 ]
 
+publications = [
+    { title = "The relationship between MicroRNA and tumor suppressors", year = "2011", author = "**Wu DC** and Waye M.", ref = "Tumor Suppressors Nova Science", vol = "175-188", scripts = "", link = "https://www.novapublishers.com/catalog/product_info.php?products_id=24192", doi="" },
+]
+
 custom_css = []
 
 [extra.analytics]
